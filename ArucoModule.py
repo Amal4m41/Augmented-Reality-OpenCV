@@ -12,8 +12,8 @@ def loadImagesToAugment(path)->dict:
 
     images_list=os.listdir(path=path)
     noOfImages=len(images_list)
-    print("No of images : ",noOfImages)
-    print(images_list)
+    print("No of images found : ",noOfImages)
+    # print(images_list)
     augDict={}
     #the images are named with their marker id
     for image in images_list:
